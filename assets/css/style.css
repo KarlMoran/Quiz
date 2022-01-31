@@ -11,7 +11,6 @@
 
 body {
     --hue: var(--hue-normal);
-
     padding: 0;
     margin: 0;
     display: flex;
@@ -19,5 +18,50 @@ body {
     width: 100vw;
     height: 100vh;
     align-items: center;
-    background-color: hsl(var(--hue),100% 20%);
+    background-color: gray;
+}
+body.correct {
+    background-color: green;
+}
+
+body.wrong {
+    background-color: rgb(150, 7, 7);
+}
+
+.container {
+    width: 800px;
+    max-width: 80%;
+    background-color: royalblue;
+    border-radius: 5px;
+    padding: 15px;
+    box-shadow: 0 0 10px 2px;
+}
+
+.btn-grid {
+    display: grid;
+    grid-template-columns: repeat(2, auto);
+    gap: 10px;
+    margin: 20px 0;
+}
+
+.btn {
+    border: 1px soild grey;
+    background-color: lightskyblue;
+    border-radius: 5px;
+    padding: 5px 10px;
+    color: ivory;
+    outline: none;
+}
+
+.btn:hover {
+    border-color: black;
+}
+
+.btn.correct {
+    background-color: green;
+    color: black;
+}
+
+.btn.wrong {
+    background-color: rgb(150, 7, 7);
 }
