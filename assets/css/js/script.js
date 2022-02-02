@@ -5,6 +5,7 @@ const questionSection = document.getElementById('question');
 const answerButton = document.getElementById('answer-buttons');
 const scoreCounter = document.getElementById('score');
 
+/* Shuffle Question everything time someone plays  */
 
 let questionShuffled, currentQuestionIndex;
 startButton.addEventListener('click', startGame);
@@ -13,7 +14,6 @@ nextButton.addEventListener('click', () => {
     selectNextQuestion();
 
 });
-
 
 /* Set up for the Game */
 
@@ -45,6 +45,8 @@ function showQuestion(question){
     })
 }
 
+/* Reset the page after the answer */
+
 function reset(){
     clearStatus(document.body);
     nextButton.classList.add('hide');
@@ -52,6 +54,8 @@ function reset(){
         answerButton.removeChild(answerButton.firstChild);
     }
 }
+
+/* When you choose the right answer */
 
 function selectAnswer(e){
     const buttonSelected = e.target;
@@ -70,6 +74,8 @@ function selectAnswer(e){
     
 }
 
+/* What happens when the answer is correct */
+
 function setStatus(element, correct) {
     clearStatus(element);
     if (correct) {
@@ -79,6 +85,8 @@ function setStatus(element, correct) {
         element.classList.add('wrong');
     }
 }
+
+/* increment score for game, code from love maths */
 
 function incrementScore() {
     let oldScore = parseInt(document.getElementById('correct').innerText);
@@ -92,7 +100,7 @@ function clearStatus (element) {
 }
 
 
-
+/* a number of different questions */
 
 const sportsQuestion = [
     {
@@ -172,6 +180,15 @@ const sportsQuestion = [
             {text: 'Neil Jenkins', correct: false },
             {text: 'Dan Carter', correct: true },
             {text: 'Jonny Wilkinson', correct: false},
+        ]
+    },
+    {
+        question: 'Quarterback Tom Brady guided which team to victory at Super Bowl LV to claim his seventh title?',
+        answers: [
+            {text: 'Buffalo bills', correct: false},
+            {text: 'Tampa Bay Buccaneers', correct: true },
+            {text: 'New england patriots', correct: false },
+            {text: 'Kansas City Chiefs', correct: false},
         ]
     },
     
