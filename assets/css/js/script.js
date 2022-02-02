@@ -111,4 +111,22 @@ const sportsQuestion = [
             {text: 'Ryder Cup', correct: false},
         ]
     },
+    {
+        question: 'Lewis Hamilton won the Formula1 World Drivers title in 2020, but what is the name of his Mercedes teammate who came second?',
+        answers: [
+            {text: 'Max Verstappen', correct: false},
+            {text: 'Lando Norris', correct: false },
+            {text: 'Fernando Alonso', correct: false },
+            {text: 'Valtteri Bottas', correct: true},
+        ]
+    },
+    {
+        question: 'In which sport do teams compete to win the Stanley Cup?',
+        answers: [
+            {text: 'NHL', correct: true},
+            {text: 'NBA', correct: false },
+            {text: 'NFL', correct: false },
+            {text: 'NASCAR', correct: false},
+        ]
+    },
 ]
