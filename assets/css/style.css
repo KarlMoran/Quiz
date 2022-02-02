@@ -22,21 +22,22 @@ body {
     width: 100vw;
     height: 100vh;
     align-items: center;
-    background-color: rgb(216, 146, 66);
+    background-color: #fff810;
 }
 
+
 body.correct {
-    background-color: green;
+    background-color: #63e89e;
 }
 
 body.wrong {
-    background-color: rgb(150, 7, 7);
+    background-color: rgb(250, 68, 68);
 }
 
 .container {
     width: 800px;
     max-width: 80%;
-    background-color: royalblue;
+    background-color: #63e89e;
     border-radius: 5px;
     padding: 15px;
     box-shadow: 0 0 10px 2px;
@@ -50,8 +51,8 @@ body.wrong {
 }
 
 .btn {
-    border: 1px soild grey;
-    background-color: lightskyblue;
+    border: 1px soild white;
+    background-color: #ff7ee3;
     border-radius: 5px;
     padding: 10px 15px;
     color: ivory;
@@ -65,12 +66,12 @@ body.wrong {
 }
 
 .btn.correct {
-    background-color: green;
+    background-color: #0fe26e;
     color: black;
 }
 
 .btn.wrong {
-    background-color: rgb(150, 7, 7);
+    background-color: rgb(250, 68, 68);
 }
 
 .start-btn, .next-btn {
