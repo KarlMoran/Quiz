@@ -1,4 +1,5 @@
 const startButton = document.getElementById('start-btn');
+const nextButton = document.getElementById('next-btn');
 const questionContainerBox = document.getElementById('question-container');
 const questionSection = document.getElementById('question');
 const answerButton = document.getElementById('answer-buttons');
@@ -11,7 +12,6 @@ startButton.addEventListener('click', startGame);
 /* Set up for the Game */
 
 function startGame() {
-console.log('started');
 startButton.classList.add('hide');
 questionShuffled = sportsQuestion.sort(() => Math.random() - .5);
 currentQuestionIndex = 0;
@@ -20,6 +20,7 @@ selectNextQuestion();
 }
 
 function selectNextQuestion(){
+    rest();
 showQuestion(questionShuffled[currentQuestionIndex]);
 
 }
@@ -36,6 +37,13 @@ function showQuestion(question){
         button.addEventListener('click', selectAnswer);
         answerButton.appendChild(button);
     })
+}
+
+function rest(){
+    nextButton.classList.add('hide');
+    while (answerButton.firstChild) {
+        answerButton.removeChild(answerButton.firstChild);
+    }
 }
 
 function selectAnswer(){
