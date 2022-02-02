@@ -26,7 +26,7 @@ selectNextQuestion();
 }
 
 function selectNextQuestion(){
-    rest();
+    reset();
 showQuestion(questionShuffled[currentQuestionIndex]);
 
 }
@@ -45,7 +45,7 @@ function showQuestion(question){
     })
 }
 
-function rest(){
+function reset(){
     clearStatus(document.body);
     nextButton.classList.add('hide');
     while (answerButton.firstChild) {
@@ -65,6 +65,7 @@ function selectAnswer(e){
     } else {
         startButton.innerText = 'Restart';
         startButton.classList.remove('hide');
+        alert(`Game over, Your Score is ${correct}`);
     }
     
 }
@@ -73,11 +74,17 @@ function setStatus(element, correct) {
     clearStatus(element);
     if (correct) {
         element.classList.add('correct');
+        incrementScore();
     } else {
         element.classList.add('wrong');
     }
 }
 
+function incrementScore() {
+    let oldScore = parseInt(document.getElementById('correct').innerText);
+    document.getElementById('correct').innerText = ++oldScore;
+
+}
 
 function clearStatus (element) {
     element.classList.remove('correct');
@@ -164,7 +171,7 @@ const sportsQuestion = [
             {text: 'Ronan O Gara', correct: false},
             {text: 'Neil Jenkins', correct: false },
             {text: 'Dan Carter', correct: true },
-            {text: 'Jonny Wilkinson', correct: true},
+            {text: 'Jonny Wilkinson', correct: false},
         ]
     },
     
