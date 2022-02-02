@@ -6,7 +6,11 @@ const answerButton = document.getElementById('answer-buttons');
 
 let questionShuffled, currentQuestionIndex;
 startButton.addEventListener('click', startGame);
+nextButton.addEventListener('click', () => {
+    currentQuestionIndex++;
+    selectNextQuestion();
 
+});
 
 
 /* Set up for the Game */
@@ -40,6 +44,7 @@ function showQuestion(question){
 }
 
 function rest(){
+    clearStatus(document.body);
     nextButton.classList.add('hide');
     while (answerButton.firstChild) {
         answerButton.removeChild(answerButton.firstChild);
@@ -53,7 +58,13 @@ function selectAnswer(e){
     Array.from(answerButton.children).forEach(button => {
         setStatus(button, button.dataset.correct);
     })
-
+    if (questionShuffled.length > currentQuestionIndex + 1) {
+        nextButton.classList.remove('hide');
+    } else {
+        startButton.innerText = 'Restart';
+        startButton.classList.remove('hide');
+    }
+    
 }
 
 function setStatus(element, correct) {
@@ -81,5 +92,23 @@ const sportsQuestion = [
             {text: 'Danny Ings', correct: false},
             {text: 'Pierre-Emerick Aubameyang', correct: false},
         ]
-    }
+    },
+    {
+        question: 'Which team won the NBA championship 2020-21',
+        answers: [
+            {text: 'Los Angeles Lakers', correct: false},
+            {text: 'Phoenix Suns', correct: false},
+            {text: 'Milwaukee Bucks', correct: true },
+            {text: 'Golden State Warriors', correct: false},
+        ]
+    },
+    {
+        question: 'Tiger Woods won his first major in over a decade at which 2019 tournament?',
+        answers: [
+            {text: 'U.S. Open', correct: false},
+            {text: 'The Masters', correct: true },
+            {text: 'PGA Championship', correct: false },
+            {text: 'Ryder Cup', correct: false},
+        ]
+    },
 ]
