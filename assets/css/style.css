@@ -7,10 +7,15 @@
     font-family: 'Sedgwick Ave', cursive, Times;
 }
 
-:root {
-    --hue-normal: 200;
-    --hue-wrong: 0;
-    --hue-correct: 145;
+h1 {
+    position: fixed;
+    top: 20px;
+    font-size: 90px;
+}
+
+footer {
+    position: fixed;
+    bottom: 20px;
 }
 
 body {

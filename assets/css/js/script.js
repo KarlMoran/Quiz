@@ -69,7 +69,7 @@ function selectAnswer(e){
     } else {
         startButton.innerText = 'Restart';
         startButton.classList.remove('hide');
-        alert(`Game over, Your Score is ${correct}`);
+        alert('Game Over');
     }
     
 }
@@ -98,7 +98,6 @@ function clearStatus (element) {
     element.classList.remove('correct');
     element.classList.remove('wrong');
 }
-
 
 /* a number of different questions */
 
