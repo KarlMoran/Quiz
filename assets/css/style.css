@@ -14,7 +14,7 @@
 }
 
 body {
-    --hue: var(--hue-normal);
+    
     padding: 0;
     margin: 0;
     display: flex;
@@ -23,8 +23,8 @@ body {
     height: 100vh;
     align-items: center;
     background-color: #fff810;
+    font-size: large;
 }
-
 
 body.correct {
     background-color: #63e89e;
@@ -51,14 +51,13 @@ body.wrong {
 }
 
 .btn {
-    border: 1px soild white;
+    border: 2px soild white;
     background-color: #ff7ee3;
     border-radius: 5px;
     padding: 10px 15px;
     color: ivory;
     outline: none;
-    
-    
+    font-size: large;
 }
 
 .btn:hover {
