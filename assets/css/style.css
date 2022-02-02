@@ -1,6 +1,10 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Sedgwick+Ave&display=swap');
+
+
 *,*::before, *::after {
     box-sizing: border-box;
-    font-family: 'Times New Roman', Times, serif;
+    font-family: 'Sedgwick Ave', cursive, Times;
 }
 
 :root {
@@ -18,8 +22,9 @@ body {
     width: 100vw;
     height: 100vh;
     align-items: center;
-    background-color: gray;
+    background-color: rgb(128, 72, 180);
 }
+
 body.correct {
     background-color: green;
 }
@@ -48,9 +53,11 @@ body.wrong {
     border: 1px soild grey;
     background-color: lightskyblue;
     border-radius: 5px;
-    padding: 5px 10px;
+    padding: 10px 15px;
     color: ivory;
     outline: none;
+    
+    
 }
 
 .btn:hover {
@@ -74,7 +81,7 @@ body.wrong {
 
 .controls {
     display: flex;
-    justify-self: center;
+    justify-content: center;
     align-items: center;
     
 }

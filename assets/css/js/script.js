@@ -3,6 +3,8 @@ const nextButton = document.getElementById('next-btn');
 const questionContainerBox = document.getElementById('question-container');
 const questionSection = document.getElementById('question');
 const answerButton = document.getElementById('answer-buttons');
+const scoreCounter = document.getElementById('score');
+
 
 let questionShuffled, currentQuestionIndex;
 startButton.addEventListener('click', startGame);
@@ -74,13 +76,15 @@ function setStatus(element, correct) {
     } else {
         element.classList.add('wrong');
     }
-
 }
+
 
 function clearStatus (element) {
     element.classList.remove('correct');
     element.classList.remove('wrong');
 }
+
+
 
 
 const sportsQuestion = [
@@ -129,4 +133,39 @@ const sportsQuestion = [
             {text: 'NASCAR', correct: false},
         ]
     },
+    {
+        question: 'How many MMA fights has UFC star Conor McGregor lost during his career?',
+        answers: [
+            {text: '2', correct: false},
+            {text: '4', correct: false },
+            {text: '6', correct: true },
+            {text: '7', correct: false},
+        ]
+    },
+    {
+        question: 'Who has won more grand slam tennis titles: ',
+        answers: [
+            {text: 'Serena Williams', correct: true},
+            {text: 'Roger Federer?', correct: false },
+        ]
+    },
+    {
+        question: 'Who is the Six Nations all-time top try scorer with 26 tries?',
+        answers: [
+            {text: 'Ian Smith', correct: false},
+            {text: 'Ian Smith', correct: false },
+            {text: 'George North', correct: false},
+            {text: 'Brian O Driscoll', correct: true},
+        ]
+    },
+    {
+        question: 'In international rugby, who is the all-time highest points scorer?',
+        answers: [
+            {text: 'Ronan O Gara', correct: false},
+            {text: 'Neil Jenkins', correct: false },
+            {text: 'Dan Carter', correct: true },
+            {text: 'Jonny Wilkinson', correct: true},
+        ]
+    },
+    
 ]
