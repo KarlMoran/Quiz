@@ -46,9 +46,31 @@ function rest(){
     }
 }
 
-function selectAnswer(){
+function selectAnswer(e){
+    const buttonSelected = e.target;
+    const correct = buttonSelected.dataset.correct;
+    setStatus(document.body, correct);
+    Array.from(answerButton.children).forEach(button => {
+        setStatus(button, button.dataset.correct);
+    })
 
 }
+
+function setStatus(element, correct) {
+    clearStatus(element);
+    if (correct) {
+        element.classList.add('correct');
+    } else {
+        element.classList.add('wrong');
+    }
+
+}
+
+function clearStatus (element) {
+    element.classList.remove('correct');
+    element.classList.remove('wrong');
+}
+
 
 const sportsQuestion = [
     {
