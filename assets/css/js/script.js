@@ -1,7 +1,9 @@
 const startButton = document.getElementById('start-btn');
 const questionContainerBox = document.getElementById('question-container');
-const questionShuffled, currentQuestionIndex;
+const questionSection = document.getElementById('question');
+const answerButton = document.getElementById('answer-buttons');
 
+let questionShuffled, currentQuestionIndex;
 startButton.addEventListener('click', startGame);
 
 
@@ -22,8 +24,8 @@ showQuestion(questionShuffled[currentQuestionIndex]);
 
 }
 
-function showQuestion(sportsQuestion){
-    
+function showQuestion(question){
+    questionSection.innerText = question.question;
 }
 
 function selectAnswer(){
