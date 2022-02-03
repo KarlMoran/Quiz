@@ -234,5 +234,40 @@ const sportsQuestion = [
             {text: 'Collin Morikawa', correct: false},
         ]
     },
-    
+    {
+        question: 'Coco Gauff made headlines at Wimbledon last year when she beat Venus Williams. How old was Gauff?',
+        answers: [
+            {text: '14', correct: false },
+            {text: '16', correct: false },
+            {text: '15', correct: true},
+            {text: '18', correct: false},
+        ]
+    },
+    {
+        question: 'In sport, what is black, 1 inch thick, 3 inches in diameter, and weighs between 5.5 and 6 ounces?',
+        answers: [
+            {text: 'Snooker', correct: false },
+            {text: 'Bowling', correct: false },
+            {text: 'Ice Hockey', correct: true},
+            {text: 'Golf', correct: false},
+        ]
+    },
+    {
+        question: 'Who is the only person to hit a home run and score an NFL touchdown in the same week?',
+        answers: [
+            {text: 'Michel Jordan', correct: false },
+            {text: 'Serbian', correct: false },
+            {text: 'barry sanders', correct: false},
+            {text: 'deion sanders', correct: true},
+        ]
+    },
+    {
+        question: 'Who are the only 2 players in NBA finals history to each score 40+ points in the same game',
+        answers: [
+            {text: 'Lebron & Kyrie', correct: true },
+            {text: 'Michel Jordan & Scottie Pippen', correct: false },
+            {text: 'Magic Johnson & James worthy', correct: false},
+            {text: 'Kobe & Shaq', correct: false},
+        ]
+    },
 ]
