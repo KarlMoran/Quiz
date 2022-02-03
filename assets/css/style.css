@@ -13,21 +13,7 @@ h1 {
     font-size: 90px;
 }
 
-footer {
-    position: fixed;
-    bottom: 20px;
-}
-
-.sports-link > li {
-    display: inline;
-    font-size: 35px;
-    color: #fff810;
-}
-
-.sports-link i {
-    color: black;
-}
-
+/* body section */
 
 body {
     
@@ -42,13 +28,19 @@ body {
     font-size: large;
 }
 
+/* body section when answer is correct */
+
 body.correct {
     background-color: #63e89e;
 }
 
+/* body section when answer is wrong */
+
 body.wrong {
     background-color: rgb(250, 68, 68);
 }
+
+/* Game Layout & Button style */
 
 .container {
     width: 800px;
@@ -62,7 +54,7 @@ body.wrong {
 .btn-grid {
     display: grid;
     grid-template-columns: repeat(2, auto);
-    gap: 10px;
+    gap: 15px;
     margin: 20px 0;
 }
 
@@ -104,4 +96,22 @@ body.wrong {
 
 .hide {
     display: none;
+}
+
+/* Footer section */
+
+footer {
+    position: fixed;
+    bottom: 20px;
+}
+
+.sports-link > li {
+    display: inline;
+    font-size: 35px;
+    color: #fff810;
+
+}
+
+.sports-link i {
+    color: black;
 }

@@ -91,7 +91,6 @@ function setStatus(element, correct) {
 function incrementScore() {
     let oldScore = parseInt(document.getElementById('correct').innerText);
     document.getElementById('correct').innerText = ++oldScore;
-
 }
 
 function clearStatus (element) {
@@ -188,6 +187,51 @@ const sportsQuestion = [
             {text: 'Tampa Bay Buccaneers', correct: true },
             {text: 'New england patriots', correct: false },
             {text: 'Kansas City Chiefs', correct: false},
+        ]
+    },
+    {
+        question: 'Ireland have won three of their last five matches against the All Blacks. Before this run, the teams had met 28 times in 111 years. How many of those games did Ireland win?',
+        answers: [
+            {text: 'One', correct: false},
+            {text: 'Five', correct: true },
+            {text: 'None', correct: true },
+            {text: 'Three', correct: false},
+        ]
+    },
+    {
+        question: 'How many NBA championships did Michael Jordan win with the Chicago Bulls?',
+        answers: [
+            {text: 'Six', correct: true },
+            {text: 'Five', correct: false },
+            {text: 'Seven', correct: false },
+            {text: 'Eight', correct: false},
+        ]
+    },
+    {
+        question: 'Usain Bolt is still the fastest man in the world, running 100m in 9.58 seconds. In which year did he set that record?',
+        answers: [
+            {text: '2008', correct: false },
+            {text: '2010', correct: false },
+            {text: '2011', correct: false},
+            {text: '2009', correct: true},
+        ]
+    },
+    {
+        question: 'Who is the Premier Leagues all-time top scorer?',
+        answers: [
+            {text: 'Wayne Rooney', correct: false },
+            {text: 'Alan Shearer', correct: true },
+            {text: 'Cristiano ronaldo', correct: false},
+            {text: 'Sergio Agüero', correct: false},
+        ]
+    },
+    {
+        question: 'Who was top of the golf world rankings prior to lockdown?',
+        answers: [
+            {text: 'Rory McIlroy', correct: true },
+            {text: 'Jon Rahm', correct: false },
+            {text: 'Viktor Hovland', correct: false},
+            {text: 'Collin Morikawa', correct: false},
         ]
     },
     
