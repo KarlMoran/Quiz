@@ -18,6 +18,17 @@ footer {
     bottom: 20px;
 }
 
+.sports-link > li {
+    display: inline;
+    font-size: 35px;
+    color: #fff810;
+}
+
+.sports-link i {
+    color: black;
+}
+
+
 body {
     
     padding: 0;
