@@ -31,6 +31,8 @@ showQuestion(questionShuffled[currentQuestionIndex]);
 
 }
 
+/* How the questions are shown */
+
 function showQuestion(question){
     questionSection.innerText = question.question;
     question.answers.forEach(answer => {
