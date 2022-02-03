@@ -140,3 +140,61 @@ footer {
     text-align: center; 
 
 }
+
+/* Media querys */
+
+@media screen and (max-width: 570px) {
+    h1 {
+        font-size: 75px;
+        top:30px;
+    }
+}
+
+@media screen and (max-width: 500px) {
+    .game-rules {
+        height: 330px;
+        width: 95%;
+        margin: 0;
+    }
+    .game-rules p {
+        font-size: 15px;
+    }
+
+    h1 {
+        top: -10px;
+    }
+}
+
+@media screen and (max-width: 450px) {
+    h1 {
+        font-size: 65px;
+        top:30px;
+    }
+}
+
+@media screen and (max-width: 400px) {
+    h1 {
+        font-size: 60px;
+        top:30px;
+    }
+
+    .game-rules {
+        height: 330px;
+        width: 95%;
+        margin: 0;
+    }
+    .game-rules p {
+        font-size: 13px;
+    }
+}
+
+@media screen and (max-width: 378px) {
+    h1 {
+        font-size: 50px;
+        top: 10px;
+    }
+
+    footer {
+        bottom: 10px;
+    }
+}
