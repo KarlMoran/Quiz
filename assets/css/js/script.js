@@ -193,7 +193,7 @@ const sportsQuestion = [
         question: 'Ireland have won three of their last five matches against the All Blacks. Before this run, the teams had met 28 times in 111 years. How many of those games did Ireland win?',
         answers: [
             {text: 'One', correct: false},
-            {text: 'Five', correct: true },
+            {text: 'Five', correct: false },
             {text: 'None', correct: true },
             {text: 'Three', correct: false},
         ]

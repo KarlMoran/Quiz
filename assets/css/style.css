@@ -115,3 +115,28 @@ footer {
 .sports-link i {
     color: black;
 }
+
+/* Instructions section */
+
+.intro-game .flex{
+    width: 80%; 
+}
+
+.game-rules {
+    border: dotted 8px rgb(66, 244, 250);
+    padding: 2%;
+    letter-spacing: 2px;
+    
+}
+
+.game-rules h2 {
+    text-align: center; 
+    margin-top: 0;
+    font-size: 20px;
+    letter-spacing: 2px;
+}
+
+.game-rules p {
+    text-align: center; 
+
+}
