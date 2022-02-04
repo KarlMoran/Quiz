@@ -167,7 +167,7 @@ const sportsQuestion = [
     {
         question: 'Who is the Six Nations all-time top try scorer with 26 tries?',
         answers: [
-            {text: 'Ian Smith', correct: false},
+            {text: 'Shane Williams', correct: false},
             {text: 'Ian Smith', correct: false },
             {text: 'George North', correct: false},
             {text: 'Brian O Driscoll', correct: true},
