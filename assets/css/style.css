@@ -215,3 +215,9 @@ footer {
         font-size: 120%;  
     }
 }
+
+@media screen and (max-width: 315px) {
+    h1 {
+        font-size: 35px;
+    }
+}
