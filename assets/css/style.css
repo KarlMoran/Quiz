@@ -220,4 +220,13 @@ footer {
     h1 {
         font-size: 35px;
     }
+
+    .container {
+        height: fit-content;
+    }
+
+    .btn {
+        width: fit-content;
+        height: fit-content;
+    }
 }
