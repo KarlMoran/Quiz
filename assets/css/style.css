@@ -197,4 +197,21 @@ footer {
     footer {
         bottom: 10px;
     }
+
+    .sports-link li {
+        font-size: 180%;  
+    }
+}
+
+@media screen and (max-width: 320px) {
+    .game-rules {
+        height: 275px;
+    }
+    .game-rules p {
+        font-size: 10px;
+    }
+
+    .sports-link li {
+        font-size: 120%;  
+    }
 }
