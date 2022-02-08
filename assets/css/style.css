@@ -177,6 +177,11 @@ footer {
     h1 {
         top: -10px;
     }
+
+    h5 {
+        float: left;
+        margin-left: 175px;
+    }
 }
 
 @media screen and (max-width: 450px) {
@@ -200,6 +205,11 @@ footer {
     .game-rules p {
         font-size: 13px;
     }
+
+    h5 {
+        float: left;
+        margin-left: 125px;
+    }
 }
 
 @media screen and (max-width: 378px) {
@@ -219,7 +229,6 @@ footer {
     h5 {
         float: left;
         margin-left: 125px;
-        
     }
 }
 
