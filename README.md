@@ -28,9 +28,9 @@ Ounce answered a next button will appear to move onto the next question.
 The background and button's reset for each question.
 #
 
-<img width="891" alt="Correct" src="https://user-images.githubusercontent.com/92300013/152531130-360766d8-338a-43fa-8d1d-52e07168e0c0.png">
+<img width="901" alt="Correct" src="https://user-images.githubusercontent.com/92300013/152997549-b3be2b43-d5b9-4b61-87ac-5d6d3a0ab441.png">
 
-<img width="915" alt="Incorrect" src="https://user-images.githubusercontent.com/92300013/152531220-7e73e737-222b-4f6d-82c6-a22c36f2a810.png">
+<img width="906" alt="Wrong" src="https://user-images.githubusercontent.com/92300013/152997555-1fcf03d9-dc30-4dbe-8221-6cc1dbf1d0c6.png">
 
 #
 
@@ -54,7 +54,7 @@ Sports Quiz holds 20 questions at the moment. When a player starts the game, the
 
 The Instruction page tells you how to play the game. It is located beside the game in a COGS icon. This COG can bring you to and form the Instruction page. 
 
-<img width="1071" alt="Instructions Form" src="https://user-images.githubusercontent.com/92300013/152971666-07b033be-d526-490b-83b5-cb662f66587c.png">
+<img width="1018" alt="How To play" src="https://user-images.githubusercontent.com/92300013/152997247-f45e8f91-8a7f-46e9-9be1-bd01f4890364.png">
 
 
 ## Start Button for the quiz to show
@@ -69,7 +69,7 @@ For every question, the player will get four options to choose from, in which  o
 One question does only have Two options, some questions are harder then they seem. 
 The quiz requires the user to select an answer before moving on to the next question.
 
-<img width="966" alt="Question section" src="https://user-images.githubusercontent.com/92300013/152973898-e75db923-861b-4dc0-ae87-a9b3a1bbd1e8.png">
+<img width="928" alt="Question Option" src="https://user-images.githubusercontent.com/92300013/152997766-3e8a6f9a-b932-4990-8378-4b83cc89f1eb.png">
 
 ## Score Tracking
 
