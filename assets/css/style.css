@@ -215,6 +215,12 @@ footer {
     .sports-link li {
         font-size: 180%;  
     }
+
+    h5 {
+        float: left;
+        margin-left: 125px;
+        
+    }
 }
 
 @media screen and (max-width: 320px) {
