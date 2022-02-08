@@ -28,6 +28,20 @@ body {
     font-size: large;
 }
 
+h4 {
+    color: black;
+    display: flex;
+    justify-content: flex-end;
+    margin-top: -40px;
+}
+
+h5 {
+    color: black;
+    display: flex;
+    margin-top: -40px;
+    margin-left: 375px;
+}
+
 /* body section when answer is correct */
 
 body.correct {

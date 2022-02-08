@@ -20,7 +20,7 @@ The primary colors used for the website are:
 * Tart Orange for Incorrect answer hex #FA4444
 
 
-<img width="821" alt="Color Scheme" src="https://user-images.githubusercontent.com/92300013/152523342-e63f7278-b263-4b00-8d0a-8139ed29e002.png">
+<img width="1167" alt="color" src="https://user-images.githubusercontent.com/92300013/152989511-669eede7-7554-4f5e-bb5b-6f09da6b82bd.png">
 
 ## Button's and background transformation 
 The buttons and background change color when a person answers the question depending if its correct or incorrect. 
