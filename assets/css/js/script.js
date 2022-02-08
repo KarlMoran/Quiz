@@ -72,7 +72,6 @@ function selectAnswer(e){
         startButton.classList.remove('hide');
         alert('Game Over');
     }
-    
 }
 
 /* What happens when the answer is correct  / wrong */

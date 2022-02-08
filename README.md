@@ -52,7 +52,7 @@ Sports Quiz holds 20 questions at the moment. When a player starts the game, the
 
 ## Instructions form 
 
-The Instruction page tells you how to play the game. It is located beside the game in a COGS icon. This COG can bring you to and form the Instruction page. 
+The Instruction page tells you how to play the game. It is located on the game page "How To Play" . This COG can bring you to the Instruction page. There is allows a back button on the instruction to get back to the game.  
 
 <img width="1018" alt="How To play" src="https://user-images.githubusercontent.com/92300013/152997247-f45e8f91-8a7f-46e9-9be1-bd01f4890364.png">
 
@@ -83,6 +83,8 @@ When a player submits an answer, they can keep track of their score and if the a
 The Social links icons will take the user to the directed site and application, in this case to the icons which match the links to there sports.
 
 <img width="411" alt="social links" src="https://user-images.githubusercontent.com/92300013/152982411-4aed5b92-7a9b-4995-b68b-c1bdf816b20d.png">
+
+#
 
 <img width="111" alt="Social Links Bomb" src="https://user-images.githubusercontent.com/92300013/152982498-5dec2634-162b-41b3-a02c-35d48ee85513.png">
 
@@ -131,3 +133,26 @@ The site was deployed to GitHub pages. The steps to deploy are as follows:
 * From the source section drop-down menu, select the Main Branch.
 * Once the Main branch has been selected and saved, the page will be automatically refreshed with a detailed ribbon displayed to indicate the successful deployment.
 * The live link can be found here - https://github.com/KarlMoran/Quiz 
+
+## LightHouse
+
+<img width="238" alt="LightHouse" src="https://user-images.githubusercontent.com/92300013/153015470-615eb396-94f3-4917-8155-5d7754e7240d.png">
+
+## Credits
+
+* The fonts for the website are taken from Google-fonts
+* The icons in the footer are taken from Fontawesome
+* The Color pallette is created from Coloor
+* For getting started with the game/quiz functions these sources supply information:
+  * <a href="https://www.youtube.com/watch?v=riDzcEQbX6k" target="_blank">YouTube-video</a>
+  * <a href="https://medium.com/nerd-for-tech/javascript-build-quiz-application-f6ee0a235417" target="_blank">Medium </a>
+
+## Questions 
+* <a href="https://www.radiotimes.com/quizzes/pub-quiz-sport/" target="_blank">Radio Times</a>
+* <a href="http://www.freepubquiz.co.uk/sport-quiz-questions3.html" target="_blank">Free Pub Quiz</a>
+* <a href="https://www.anadventurousworld.com/easy-sports-quiz-questions-answers/" target="_blank">An Adventure World</a>
+
+## favicon
+* <a href="https://www.favicon.cc/?" target="_blank">Favicon.cc</a>
+
+
