@@ -12,7 +12,6 @@ startButton.addEventListener('click', startGame);
 nextButton.addEventListener('click', () => {
     currentQuestionIndex++;
     selectNextQuestion();
-
 });
 
 /* Set up for the Game */
@@ -44,7 +43,7 @@ function showQuestion(question){
         }
         button.addEventListener('click', selectAnswer);
         answerButton.appendChild(button);
-    })
+    });
 }
 
 /* Reset the page after the answer */
@@ -57,7 +56,7 @@ function reset(){
     }
 }
 
-/* When you choose the right answer */
+/* When you choose the answer/ next button / Gameover*/
 
 function selectAnswer(e){
     const buttonSelected = e.target;
@@ -65,7 +64,7 @@ function selectAnswer(e){
     setStatus(document.body, correct);
     Array.from(answerButton.children).forEach(button => {
         setStatus(button, button.dataset.correct);
-    })
+    });
     if (questionShuffled.length > currentQuestionIndex + 1) {
         nextButton.classList.remove('hide');
     } else {
@@ -76,7 +75,7 @@ function selectAnswer(e){
     
 }
 
-/* What happens when the answer is correct */
+/* What happens when the answer is correct  / wrong */
 
 function setStatus(element, correct) {
     clearStatus(element);
@@ -258,9 +257,9 @@ const sportsQuestion = [
         question: 'Who is the only person to hit a home run and score an NFL touchdown in the same week?',
         answers: [
             {text: 'Michel Jordan', correct: false },
-            {text: 'Serbian', correct: false },
-            {text: 'barry sanders', correct: false},
-            {text: 'deion sanders', correct: true},
+            {text: 'Danny Ainge', correct: false },
+            {text: 'Barry sanders', correct: false},
+            {text: 'Deion sanders', correct: true},
         ]
     },
     {
@@ -272,4 +271,4 @@ const sportsQuestion = [
             {text: 'Kobe & Shaq', correct: false},
         ]
     },
-]
+];
