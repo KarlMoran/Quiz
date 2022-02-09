@@ -28,9 +28,9 @@ Ounce answered a next button will appear to move onto the next question.
 The background and button's reset for each question.
 #
 
-<img width="901" alt="Correct" src="https://user-images.githubusercontent.com/92300013/152997549-b3be2b43-d5b9-4b61-87ac-5d6d3a0ab441.png">
+<img width="909" alt="Correct" src="https://user-images.githubusercontent.com/92300013/153187586-3269fce5-10d0-44a2-8a1b-d981620e2a2f.png">
 
-<img width="906" alt="Wrong" src="https://user-images.githubusercontent.com/92300013/152997555-1fcf03d9-dc30-4dbe-8221-6cc1dbf1d0c6.png">
+<img width="911" alt="Incorrect" src="https://user-images.githubusercontent.com/92300013/153187710-9e489731-cf92-4d0a-99fc-b2a4f17e918b.png">
 
 #
 
@@ -54,8 +54,7 @@ Sports Quiz holds 20 questions at the moment. When a player starts the game, the
 
 The Instruction page tells you how to play the game. It is located on the game page "How To Play" . This COG can bring you to the Instruction page. There is allows a back button on the instruction to get back to the game.  
 
-<img width="1018" alt="How To play" src="https://user-images.githubusercontent.com/92300013/152997247-f45e8f91-8a7f-46e9-9be1-bd01f4890364.png">
-
+<img width="976" alt="How to play" src="https://user-images.githubusercontent.com/92300013/153189366-c8fc8484-c207-469e-b6ff-07036ca97c58.png">
 
 ## Start Button for the quiz to show
 
@@ -69,7 +68,7 @@ For every question, the player will get four options to choose from, in which  o
 One question does only have Two options, some questions are harder then they seem. 
 The quiz requires the user to select an answer before moving on to the next question.
 
-<img width="928" alt="Question Option" src="https://user-images.githubusercontent.com/92300013/152997766-3e8a6f9a-b932-4990-8378-4b83cc89f1eb.png">
+<img width="930" alt="question option" src="https://user-images.githubusercontent.com/92300013/153189520-60e4f819-ee2f-452e-a61d-47344ed8fe86.png">
 
 ## Score Tracking
 
@@ -82,11 +81,11 @@ When a player submits an answer, they can keep track of their score and if the a
 
 The Social links icons will take the user to the directed site and application, in this case to the icons which match the links to there sports.
 
-<img width="411" alt="social links" src="https://user-images.githubusercontent.com/92300013/152982411-4aed5b92-7a9b-4995-b68b-c1bdf816b20d.png">
+<img width="453" alt="sports link" src="https://user-images.githubusercontent.com/92300013/153189709-f940b598-2e57-4381-bf43-447925e4194f.png">
 
 #
 
-<img width="111" alt="Social Links Bomb" src="https://user-images.githubusercontent.com/92300013/152982498-5dec2634-162b-41b3-a02c-35d48ee85513.png">
+<img width="122" alt="Irish sports" src="https://user-images.githubusercontent.com/92300013/153189715-bb0cbbe8-ce89-4355-a793-6b81509b1af4.png">
 
 
 ## Technologies Used
