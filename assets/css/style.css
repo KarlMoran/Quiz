@@ -1,4 +1,4 @@
-
+/* Imported font from Google fonts */
 @import url('https://fonts.googleapis.com/css2?family=Sedgwick+Ave&display=swap');
 
 
@@ -7,17 +7,20 @@
     font-family: 'Sedgwick Ave', cursive, Times;
 }
 
+/* Sports Quiz heading */
+
 h1 {
     position: fixed;
     top: 5px;
     font-size: 90px;
 }
+/* icon links color */
 
 a {
     color: black;
 }
 
-/* body section */
+/* Body section */
 
 body {
     
@@ -46,13 +49,13 @@ h5 {
     margin-left: 375px;
 }
 
-/* body section when answer is correct */
+/* Body section when answer is correct */
 
 body.correct {
     background-color: #63e89e;
 }
 
-/* body section when answer is wrong */
+/* Body section when answer is wrong */
 
 body.wrong {
     background-color: rgb(250, 68, 68);

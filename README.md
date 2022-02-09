@@ -137,11 +137,15 @@ The site was deployed to GitHub pages. The steps to deploy are as follows:
 
 <img width="238" alt="LightHouse" src="https://user-images.githubusercontent.com/92300013/153015470-615eb396-94f3-4917-8155-5d7754e7240d.png">
 
+## Unfixed Bugs
+
+At the moment the only thing Iam having a problem with is the score, it gives 2 points for a wright answer and 1 point for a wrong answer. 
+
 ## Credits
 
 * The fonts for the website are taken from Google-fonts
 * The icons in the footer are taken from Fontawesome
-* The Color pallette is created from Coloor
+* The Color pallette is created from <a href="https://coolors.co/palette/fff810-64e4e8-63e89e-ff7ee3-fa4444" target="_blank">Coolors</a>
 * For getting started with the game/quiz functions these sources supply information:
   * <a href="https://www.youtube.com/watch?v=riDzcEQbX6k" target="_blank">YouTube-video</a>
   * <a href="https://medium.com/nerd-for-tech/javascript-build-quiz-application-f6ee0a235417" target="_blank">Medium </a>
