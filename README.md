@@ -117,7 +117,7 @@ Dev Tools is used to look over the development of the website, debugging problem
 
 ### Validator Testing
 
-* HTML 
+* <a href="https://validator.w3.org/nu/?doc=https%3A%2F%2Fkarlmoran.github.io%2FQuiz%2Findex.html" target="_blank">HTML Validator</a>
 
 <img width="1155" alt="HTML test" src="https://user-images.githubusercontent.com/92300013/152983526-57472e7d-f65c-4e10-b5e1-2e200e38d94d.png">
 
@@ -139,7 +139,7 @@ The site was deployed to GitHub pages. The steps to deploy are as follows:
 
 ## Unfixed Bugs
 
-At the moment the only thing Iam having a problem with is the score, it gives 2 points for a wright answer and 1 point for a wrong answer. 
+At the moment the only thing I am having a problem with is the score, it gives 2 points for a right answer and 1 point for a wrong answer.
 
 ## Credits
 
