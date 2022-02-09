@@ -1,4 +1,8 @@
 # Sports Quiz
+<a href="https://karlmoran.github.io/Quiz/" target="_blank" alt="Live link to quiz"> Live link to quiz </a>
+
+#
+
 <img width="706" alt="Sports Quiz logo" src="https://user-images.githubusercontent.com/92300013/152518254-fca8d54d-fda3-4360-9905-d4dba500fd5c.png">
 
 #
@@ -131,7 +135,7 @@ The site was deployed to GitHub pages. The steps to deploy are as follows:
 * In the GitHub repository, navigate to the Settings tab.
 * From the source section drop-down menu, select the Main Branch.
 * Once the Main branch has been selected and saved, the page will be automatically refreshed with a detailed ribbon displayed to indicate the successful deployment.
-* The live link can be found here - https://github.com/KarlMoran/Quiz 
+* The live link can be found here - https://karlmoran.github.io/Quiz/ 
 
 ## Forking the GitHub Repository
 By forking the GitHub Repository we make a copy of the original repository on our GitHub account to view and/or make changes without affecting the original repository by using the following steps...
@@ -161,7 +165,11 @@ Click <a href="https://docs.github.com/en/repositories/creating-and-managing-rep
 
 ## LightHouse
 
-<img width="238" alt="LightHouse" src="https://user-images.githubusercontent.com/92300013/153015470-615eb396-94f3-4917-8155-5d7754e7240d.png">
+### Sports quiz page
+ <img width="238" alt="LightHouse" src="https://user-images.githubusercontent.com/92300013/153015470-615eb396-94f3-4917-8155-5d7754e7240d.png">
+
+### Instruction page 
+<img width="249" alt="instruction page result" src="https://user-images.githubusercontent.com/92300013/153223477-7b405770-8b42-452d-91a7-17aea01dbe93.png">
 
 ## Further Testing
 - The Website was tested on Google Chrome, Internet Explorer, Microsoft Edge and Safari browsers.

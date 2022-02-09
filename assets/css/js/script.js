@@ -20,7 +20,7 @@ nextButton.addEventListener('click', () => {
 
 function startGame() {
     startButton.classList.add('hide');
-    questionShuffled = sportsQuestion.sort(() => Math.random() - .5);
+    questionShuffled = sportsQuestion.sort(() => Math.random() - '.5');
     currentQuestionIndex = 0;
     questionContainerBox.classList.remove('hide');
     selectNextQuestion();
