@@ -181,6 +181,8 @@ Click <a href="https://docs.github.com/en/repositories/creating-and-managing-rep
 
 At the moment the only thing I am having a problem with is the score, it gives 2 points for a right answer and 1 point for a wrong answer.
 
+The restart button, when the game ends and you click restart, the score dosen't restart.
+
 ## Credits
 
 * The fonts for the website are taken from Google-fonts
