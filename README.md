@@ -6,7 +6,7 @@
 <img width="673" alt="heading" src="https://user-images.githubusercontent.com/92300013/153229066-6557cee5-9ce2-4522-a346-e45904cdaff6.png">
 
 #
-<img width="1030" alt="media screen" src="https://user-images.githubusercontent.com/92300013/153192583-9cded09b-65eb-4d9c-839d-21d1cffbb20d.png">
+<img width="1030" alt="Media Screen" src="https://user-images.githubusercontent.com/92300013/153230787-c977fcdc-9ecc-4f5d-9116-936e9ea4cb0b.png">
 
 #
 Sports quiz is a game for anyone who wants to test thier knowlege about sports.
