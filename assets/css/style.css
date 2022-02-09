@@ -9,8 +9,12 @@
 
 h1 {
     position: fixed;
-    top: 20px;
+    top: 5px;
     font-size: 90px;
+}
+
+a {
+    color: black;
 }
 
 /* body section */
@@ -123,11 +127,23 @@ footer {
     display: inline;
     font-size: 35px;
     color: #fff810;
-
+    padding: 0.8rem;
 }
 
-.sports-link i {
-    color: black;
+.sports-link .basketball {
+    color: orangered;
+}
+
+.sports-link .Tabletennis {
+    color: blue;
+}
+
+.sports-link .golf {
+    color: grey;
+}
+
+.sports-link .nfl {
+    color: rgb(146, 37, 37);
 }
 
 /* Instructions page section */
