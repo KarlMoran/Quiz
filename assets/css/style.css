@@ -178,8 +178,8 @@ footer {
 
 @media screen and (max-width: 570px) {
     h1 {
-        font-size: 75px;
-        top:30px;
+        font-size: 72px;
+        top: -5px;
     }
 }
 
@@ -205,15 +205,15 @@ footer {
 
 @media screen and (max-width: 450px) {
     h1 {
-        font-size: 65px;
-        top:30px;
+        font-size: 60px;
+        top:10px;
     }
 }
 
 @media screen and (max-width: 400px) {
     h1 {
-        font-size: 60px;
-        top:30px;
+        font-size: 45px;
+        top: 10px;
     }
 
     .game-rules {
