@@ -19,11 +19,11 @@ nextButton.addEventListener('click', () => {
 /* Set up for the Game */
 
 function startGame() {
-startButton.classList.add('hide');
-questionShuffled = sportsQuestion.sort(() => Math.random() - .5);
-currentQuestionIndex = 0;
-questionContainerBox.classList.remove('hide');
-selectNextQuestion();
+    startButton.classList.add('hide');
+    questionShuffled = sportsQuestion.sort(() => Math.random() - .5);
+    currentQuestionIndex = 0;
+    questionContainerBox.classList.remove('hide');
+    selectNextQuestion();
 }
 
 function selectNextQuestion(){
