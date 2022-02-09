@@ -28,8 +28,7 @@ function startGame() {
 
 function selectNextQuestion(){
     reset();
-showQuestion(questionShuffled[currentQuestionIndex]);
-
+    showQuestion(questionShuffled[currentQuestionIndex]);
 }
 
 /* How the questions are shown */
