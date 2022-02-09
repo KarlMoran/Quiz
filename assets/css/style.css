@@ -127,7 +127,7 @@ footer {
     display: inline;
     font-size: 35px;
     color: #fff810;
-    padding: 0.8rem;
+    padding: 0.5rem;
 }
 
 .sports-link .basketball {
@@ -239,7 +239,8 @@ footer {
     }
 
     .sports-link li {
-        font-size: 180%;  
+        font-size: 130%;
+        margin-left: -5px;
     }
 
     h5 {
@@ -257,7 +258,7 @@ footer {
     }
 
     .sports-link li {
-        font-size: 120%;  
+        font-size: 100%;  
     }
 }
 
