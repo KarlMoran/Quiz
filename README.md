@@ -121,9 +121,9 @@ Dev Tools is used to look over the development of the website, debugging problem
 
 <img width="1155" alt="HTML test" src="https://user-images.githubusercontent.com/92300013/152983526-57472e7d-f65c-4e10-b5e1-2e200e38d94d.png">
 
-* CSS
+* <a href="https://jigsaw.w3.org/css-validator/validator?uri=https%3A%2F%2Fkarlmoran.github.io%2FQuiz%2F&profile=css3svg&usermedium=all&warning=1&vextwarning=&lang=en" target="_blank">CSS Validator</a>
 
-<img width="1156" alt="CSS test" src="https://user-images.githubusercontent.com/92300013/152983440-eb45d42f-1231-438a-ba8c-ca9b4b67efcc.png">
+<img width="1273" alt="CSS" src="https://user-images.githubusercontent.com/92300013/153213079-44025f41-9dc6-459c-b2e9-122525f2240d.png">
 
 ## Deployment
 The site was deployed to GitHub pages. The steps to deploy are as follows:
@@ -132,6 +132,32 @@ The site was deployed to GitHub pages. The steps to deploy are as follows:
 * From the source section drop-down menu, select the Main Branch.
 * Once the Main branch has been selected and saved, the page will be automatically refreshed with a detailed ribbon displayed to indicate the successful deployment.
 * The live link can be found here - https://github.com/KarlMoran/Quiz 
+
+## Forking the GitHub Repository
+By forking the GitHub Repository we make a copy of the original repository on our GitHub account to view and/or make changes without affecting the original repository by using the following steps...
+ * Log in to GitHub and locate the GitHub Repository
+ * At the top of the Repository (not top of page) just above the "Settings" Button on the menu, locate the "Fork" Button.
+ * You should now have a copy of the original repository in your GitHub account.
+
+## Making a Local Clone
+1. Log in to GitHub and locate the GitHub Repository
+2. Under the repository name, click "Clone or download".
+3. To clone the repository using HTTPS, under "Clone with HTTPS", copy the link.
+4. Open Git Bash
+5. Change the current working directory to the location where you want the cloned directory to be made.
+6. Type git clone, and then paste the URL you copied in Step 3.
+
+$ git clone https://github.com/KarlMoran/Quiz
+
+7. Press Enter. Your local clone will be created.
+
+$ git clone https://github.com/KarlMoran/Quiz
+- Cloning into `CI-Clone`...
+- remote: Counting objects: 10, done.
+- remote: Compressing objects: 100% (8/8), done.
+- remove: Total 10 (delta 1), reused 10 (delta 1)
+- Unpacking objects: 100% (10/10), done.
+Click <a href="https://docs.github.com/en/repositories/creating-and-managing-repositories/cloning-a-repository#cloning-a-repository-to-github-desktop" target="_blank">Here</a>to retrieve pictures for some of the buttons and more detailed explanations of the above process.
 
 ## LightHouse
 
