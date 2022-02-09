@@ -3,7 +3,7 @@
 
 #
 
-<img width="706" alt="Sports Quiz logo" src="https://user-images.githubusercontent.com/92300013/152518254-fca8d54d-fda3-4360-9905-d4dba500fd5c.png">
+<img width="673" alt="heading" src="https://user-images.githubusercontent.com/92300013/153229066-6557cee5-9ce2-4522-a346-e45904cdaff6.png">
 
 #
 <img width="1030" alt="media screen" src="https://user-images.githubusercontent.com/92300013/153192583-9cded09b-65eb-4d9c-839d-21d1cffbb20d.png">
@@ -32,9 +32,9 @@ Ounce answered a next button will appear to move onto the next question.
 The background and button's reset for each question.
 #
 
-<img width="909" alt="Correct" src="https://user-images.githubusercontent.com/92300013/153187586-3269fce5-10d0-44a2-8a1b-d981620e2a2f.png">
+<img width="895" alt="right answer" src="https://user-images.githubusercontent.com/92300013/153229373-1129ebfb-0ec0-44dd-ae08-ba16c7285734.png">
 
-<img width="911" alt="Incorrect" src="https://user-images.githubusercontent.com/92300013/153187710-9e489731-cf92-4d0a-99fc-b2a4f17e918b.png">
+<img width="914" alt="wrong answer" src="https://user-images.githubusercontent.com/92300013/153229364-d1fa00b9-034d-4c78-8108-683905b7444c.png">
 
 #
 
@@ -58,7 +58,7 @@ Sports Quiz holds 20 questions at the moment. When a player starts the game, the
 
 The Instruction page tells you how to play the game. It is located on the game page "How To Play" . This COG can bring you to the Instruction page. There is allows a back button on the instruction to get back to the game.  
 
-<img width="976" alt="How to play" src="https://user-images.githubusercontent.com/92300013/153189366-c8fc8484-c207-469e-b6ff-07036ca97c58.png">
+<img width="992" alt="How to PLay" src="https://user-images.githubusercontent.com/92300013/153229852-3d2a0c30-5858-46f5-b48f-ffdb7613bfa4.png">
 
 ## Start Button for the quiz to show
 
@@ -72,7 +72,7 @@ For every question, the player will get four options to choose from, in which  o
 One question does only have Two options, some questions are harder then they seem. 
 The quiz requires the user to select an answer before moving on to the next question.
 
-<img width="930" alt="question option" src="https://user-images.githubusercontent.com/92300013/153189520-60e4f819-ee2f-452e-a61d-47344ed8fe86.png">
+<img width="924" alt="Question Option" src="https://user-images.githubusercontent.com/92300013/153230160-d0ca3ece-03b2-47b9-8336-66176ef16fbf.png">
 
 ## Score Tracking
 
@@ -83,7 +83,7 @@ When a player submits an answer, they can keep track of their score and if the a
 
 ## Social links 
 
-The Social links icons will take the user to the directed site and application, in this case to the icons which match the links to there sports.
+The Social links icons will take the user to the directed site and application, in this case to the icons which match the links to there sports. These will act as HINTS to the answers.
 
 <img width="453" alt="sports link" src="https://user-images.githubusercontent.com/92300013/153189709-f940b598-2e57-4381-bf43-447925e4194f.png">
 
