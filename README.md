@@ -163,6 +163,12 @@ Click <a href="https://docs.github.com/en/repositories/creating-and-managing-rep
 
 <img width="238" alt="LightHouse" src="https://user-images.githubusercontent.com/92300013/153015470-615eb396-94f3-4917-8155-5d7754e7240d.png">
 
+## Further Testing
+- The Website was tested on Google Chrome, Internet Explorer, Microsoft Edge and Safari browsers.
+- The website was viewed on a variety of devices such as Desktop, Laptop, iPhone7, iPhone 8 & iPhoneX.
+- A large amount of testing was done to ensure that all pages were linking correctly.
+- Friends and family members were asked to review the site and documentation to point out any bugs and/or user experience issues.
+
 ## Unfixed Bugs
 
 At the moment the only thing I am having a problem with is the score, it gives 2 points for a right answer and 1 point for a wrong answer.
